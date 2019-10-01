@@ -8,7 +8,7 @@ public class numOfWords {
 
         String sentence = in.nextLine();
         // Gee, I sure hope people understand what I mean by the below variable...
-        int variableName = countVowels(sentence);
+        int variableName = countVowels(sentence.toLowerCase());
         
         System.out.println("There are " + variableName + " vowels in that sentence.");
         in.close();
